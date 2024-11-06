@@ -82,9 +82,9 @@ case $choice in
         echo -e "${GREEN}프록시 정보가 proxy.txt 파일에 저장되었습니다.${NC}"
 
         # 봇 구동
-        node tapcoin.js
-    else
         node tapcoin-proxy.js
+    else
+        node tapcoin.js
     fi
     ;;
     
